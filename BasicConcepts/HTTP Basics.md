@@ -20,7 +20,7 @@ In the previous task, you learnt that when a HTTP server responds, the first lin
 
 There are a lot of different HTTP status codes and that's not including the fact that applications can even define their own, we'll go over the most common HTTP responses you are likely to come across:
 
-- ```200*``` - *OK* - The request was completed successfully.
+- ```200``` - *OK* - The request was completed successfully.
 - ```201``` - *Created* - A resource has been created (for example a new user or new blog post).
 - ```301``` - *Permanent Redirect* - This redirects the client's browser to a new webpage or tells search engines that the page has moved somewhere else and to look there instead.
 - ```302``` - *Temporary Redirect* - Similar to the above permanent redirect, but as the name suggests, this is only a temporary change and it may change again in the near future.
