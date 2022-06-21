@@ -7,7 +7,7 @@
 import requests
 import time
 
-url = "http://157.245.33.77:30680/login"
+url = "http://ip.address:port/login"
 
 user_name, passwd =  "", ""
 

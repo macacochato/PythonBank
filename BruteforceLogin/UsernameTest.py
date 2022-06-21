@@ -13,7 +13,7 @@ import re
 magic = re.sub(r'[*]','',printable)
 
 
-url = "http://157.245.33.77:30680/login"
+url = "http://ip.address:port/login"
 myobj = { 'username':'somevalue','password':'*' }
 result = ''
 
